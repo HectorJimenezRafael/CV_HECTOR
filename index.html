@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/20a538d92d.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://kit.fontawesome.com/e1c57502e1.js" crossorigin="anonymous"></script>
+
+    <title>Template CV</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-info" color-on-scroll="400" id="#navbar">
+            <div>
+                <a class="navbar-brand logo" href="">
+                    <img src="img/Hector.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Formación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Competencias personales</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <div class="profile-page sidebar-collapse">
+              <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+                <div class="container">
+                  <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Creative CV</a>
+                    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+                  </div>
+                  <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                    <ul class="navbar-nav">
+                      <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                      <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                      <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                      <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div> -->
+    </header>
+    <!-- <div class="page-content">
+    <div>
+    <div class="profile-page">
+        <div class="wrapper">
+            <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+            <div class="container">
+                <div class="content-center">
+                <div class="cc-profile-image"><a href="#"><img src="assets/profile.jpg" alt="Image"/></a></div>
+                <div class="h2 title">Anthony Barnett</div>
+                <p class="category text-white">Web Developer, Graphic Designer,  Photographer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div> -->
+
+    <section class="section home smooth-scroll" id="home">
+        <div class="home-obj">
+            <div class="home-title text-center" style="color: white;">Héctor Jiménez Rafael</div>
+            <div class="home-middle container">
+                <div class="row">
+                    <div class="home-middle-left col-sm d-flex flex-column align-items-center justify-content-between">
+                        <div class="character" style="color: white;">Puntual</div>
+                        <div class="social-logo">
+                            <img src="assets/linkedin.png" alt="" />
+                        </div>
+                        <div class="character" style="color: white;">Responsable</div>
+                    </div>
+
+                    <div class="home-middle-center col-sm d-flex flex-column align-items-center justify-content-between">
+                        <div class="main-image" style="text-align: center;">
+                            <img style="width: 200px;" src="img/Hector.jpeg" alt="" />
+                        </div>
+                        <div class="main-title" style="color: white;">Desarrollador Web</div>
+                    </div>
+
+                    <div class="home-middle-right col-sm d-flex flex-column align-items-center justify-content-between">
+                        <div class="character" style="color: white;">Amable</div>
+                        <div class="social-logo">
+                            <img src="assets/twitter.png" alt="" />
+                        </div>
+                        <div class="character" style="color: white;">Colaborador</div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-bottom container">
+                <div class="d-flex flex-row align-items-center">
+                    <div class="home-bottom-left col-sm" align="center">
+                        <div class="social-logo">
+                            <img src="assets/stack.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="home-bottom-center col-sm" align="center">
+                        <div class="character" style="color: white;"> Atento</div>
+                    </div>
+
+                    <div class="home-bottom-right col-sm" align="center">
+                        <div class="social-logo">
+                            <img src="assets/github.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-arrow">
+                <img src="assets/arrow.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section smooth-scroll" id="about">
+        <div class="first-title text-center">Sobre mí</div>
+        <div class="row about-contain mx-auto">
+            <div class="col-md-3">
+                <div class="d-flex flex-column justify-content-around shadow p-3 mb-5 bg-white rounded contact" data-aos="fade-up">
+                    <div class="text-center mt-3 second-title">Contacto</div>
+                    <div class="row justify-content-center mt-3">
+                        <i class="fas fa-phone-alt col-2 icon-contact "></i>
+                        <div class="col-8">667203534</div>
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                        <i class="fas fa-envelope col-2 icon-contact "></i>
+                        <div class="col-8">
+                            <a href="mailto:hectorjimenezrafael18@gmail.com" style="font-size: 12px;">hectorjimenezrafael18@gmail.com</a> </div>
+                    </div>
+                    <div class="row justify-content-center mt-3 mb-3">
+                        <i class="fas fa-map-marked-alt col-2 icon-contact "></i>
+                        <div class="col-8">
+                            <a href="https://www.google.es/maps/place/L'Hospitalet+de+Llobregat,+Barcelona/@41.3577792,2.0944,14z/data=!3m1!4b1!4m5!3m4!1s0x12a498e7672e0317:0x36127a984f4c05d5!8m2!3d41.3661865!4d2.1164942?hl=es" target="_blank">Hospitalet de Llobregat (08907)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-around shadow p-3 mb-5 bg-white rounded contact" data-aos="fade-up">
+                    <div class="text-center mt-3 second-title">Idiomas</div>
+                    <div class="row justify-content-center mt-3">
+                        <i class="fa-solid fa-angles-right"></i>
+                        <div class="col-8">Castellano</div>
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                        <i class="fa-solid fa-angles-right"></i>
+                        <div class="col-8">Catalán</div>
+                    </div>
+                    <div class="row justify-content-center mt-3 mb-3">
+                        <i class="fa-solid fa-angles-right"></i>
+                        <div class="col-8">Inglés</div>
+                    </div>
+                </div>
+                <!-- <div>
+                    <img src="" alt="" >
+                    <div>Some text</div>
+                </div> -->
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="bg-primary col-md-8 h-75 shadow p-3 mb-5 bg-white rounded detail" data-aos="fade-left">
+                <div class="text-center mt-3 second-title">¿Quién es Hèctor?</div>
+                <div class="w-75 text-justify mx-auto mt-3">
+
+                    <p>Soy una persona respetuosa, responsable, que siempre cumple con la tarea encomendada, puntual, con muchas ganas de aprender, empático, siempre estoy dispuesto a ayudar a aquel que lo necesite. Me considero una persona amigable, amigo
+                        de los amigos.</p>
+                    <p>Aunque no tenga experiencia laboral, presento cualidades que me hacen apto para el puesto de trabajo.
+                    </p>
+                </div>
+                <div class="row justify-content-around mt-3 mx-auto">
+                    <div class="shadow p-3 mb-5 bg-white rounded col-md-3">
+                        <div class="text-center third-title">Hobbies</div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-basketball-ball font-icon"></i>
+                            <div class="col-8">Programar</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-globe-africa font-icon"></i>
+                            <div class="col-8">Futbol</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-chess-pawn font-icon"></i>
+                            <div class="col-8">Videojuegos</div>
+                        </div>
+                    </div>
+                    <div class="shadow p-3 mb-5 bg-white rounded col-md-3">
+                        <div class="text-center third-title">Musics</div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-music font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-music font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-music font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                    </div>
+                    <div class="shadow p-3 mb-5 bg-white rounded col-md-3">
+                        <div class="text-center third-title">Films</div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-film font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-film font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-film font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row justify-content-around mt-3 mx-auto">
+                    <div class="shadow p-3 mb-5 bg-white rounded col-md-3">
+                        <div class="text-center third-title">Actividades</div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-basketball-ball font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-globe-africa font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-chess-pawn font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                    </div>
+                    <div class="shadow p-3 mb-5 bg-white rounded col-md-3">
+                        <div class="text-center third-title">Musics</div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-music font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-music font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-music font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                    </div>
+                    <div class="shadow p-3 mb-5 bg-white rounded col-md-3">
+                        <div class="text-center third-title">Films</div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-film font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-film font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                        <div class="row justify-content-center ">
+                            <i class="fas fa-film font-icon"></i>
+                            <div class="col-8">Some text</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section smooth-scroll" id="experience">
+        <div class="container experience-contain">
+            <div class="h4 text-center mb-4 first-title"> Formación</div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card-body experience-contain-header" style="text-align: center;">
+                            <p>Septiembre 2021 </p>
+                            <p>Junio 2023</p>
+                            <div class="h5">Actualidad</div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="h5">Grado superior de Desarrollo de Aplicaciones Web (en proceso)
+                            </div>
+                            <p>Centro de estudios Joan XXIII - Hospitalet de Llobregat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 " data-aos="flip-left">
+                        <div class="card-body experience-contain-header">
+                            <p>Septiembre 2019</p>
+                            <p>Junio 2021</p>
+                            <!-- <div class="h5">WebNote</div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="h5">Bachillerato</div>
+                            <p>Centro de estudios Joan XXIII - Hospitalet de Llobregat
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card-body experience-contain-header">
+                            <p>Septiembre 2015 </p>
+                            <p>Junio 2019</p>
+                            <!-- <div class="h5">WEBM</div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="h5">ESO</div>
+                            <p>Centro de estudios Joan XXIII - Hospitalet de Llobregat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section smooth-scroll" id="portfolio">
+        <div class="container">
+            <div class="h4 text-center mb-4 first-title"> Portfolio</div>
+            <div class="d-block">
+                <div class="ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="porfolio-image image-on" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                <a href="#">
+                                    <figure class="effect"><img src="assets/projects/project-1.png" alt="Image" />
+                                        <figcaption>
+                                            <div class="h4">Recent Project</div>
+                                            <p>Web Development</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="porfolio-image image-on" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                <a href="#">
+                                    <figure class="effect"><img src="assets/projects/project-2.png" alt="Image" />
+                                        <figcaption>
+                                            <div class="h4">Startup Project</div>
+                                            <p>Web Development</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="porfolio-image image-on" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                <a href="#">
+                                    <figure class="effect"><img src="assets/projects/project-3.png" alt="Image" />
+                                        <figcaption>
+                                            <div class="h4">Food Order Project</div>
+                                            <p>Web Development</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="porfolio-image image-on" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                <a href="#">
+                                    <figure class="effect"><img src="assets/projects/project-5.png" alt="Image" />
+                                        <figcaption>
+                                            <div class="h4">Web Advertising Project</div>
+                                            <p>Web Development</p>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="section smooth-scroll" id="skills">
+        <div class="container">
+            <div class="h4 text-center mb-4 first-title"> Habilidades</div>
+            <div class="d-block">
+                <div class="ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="shadow p-3 mb-5 bg-white rounded d-block position-relative" data-aos="zoom-in-up">
+                                <div class="text-center third-title">Front-end</div>
+                                <div class="row">
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fab fa-html5 font-icon"></i>
+                                            <div class="col-8">HTML</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fab fa-css3-alt font-icon"></i>
+                                            <div class="col-8">CSS3</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fab fa-js font-icon"></i>
+                                            <div class="col-8">Javascript</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <!-- <i class="fab fa-vuejs font-icon"></i>
+                                            <div class="col-8">VueJs</div> -->
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <!-- <i class="fab fa-angular font-icon"></i>
+                                            <div class="col-8">Angular</div> -->
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <!-- <i class="fab fa-react font-icon"></i>
+                                            <div class="col-8">ReactJs</div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shadow p-3 mb-5 bg-white rounded d-block position-relative" data-aos="zoom-in-down">
+                                <div class="text-center third-title">Back-end</div>
+                                <div class="row">
+                                    <div class="col-4 mx-auto">
+
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">PHP</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mx-auto">
+                                        <!-- <div class="row justify-content-center ">
+                                            <i class="fab fa-node-js font-icon"></i>
+                                            <div class="col-8">NodeJs</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Dart</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Python</div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="shadow p-3 mb-5 bg-white rounded d-block position-relative" data-aos="zoom-in-up">
+                                <div class="text-center third-title">Back-end</div>
+                                <div class="row">
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">PHP</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shadow p-3 mb-5 bg-white rounded d-block position-relative" data-aos="zoom-in-down">
+                                <div class="text-center third-title">Server & Cloud</div>
+                                <div class="row">
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some Text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="shadow p-3 mb-5 bg-white rounded d-block position-relative" data-aos="zoom-in-up">
+                                <div class="text-center third-title">Design</div>
+                                <div class="row">
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="shadow p-3 mb-5 bg-white rounded d-block position-relative" data-aos="zoom-in-up">
+                                <div class="text-center third-title">Others</div>
+                                <div class="row">
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 mx-auto">
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                        <div class="row justify-content-center ">
+                                            <i class="fas fa-code font-icon"></i>
+                                            <div class="col-8">Some text</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section smooth-scroll" id="education">
+        <div class="container education-contain">
+            <div class="h4 text-center mb-4 first-title"> Competencias personales</div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card-body education-contain-header">
+                            <p></p>
+                            <div class="h5">Atributos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="h5">Yo</div>
+                            <p><img style="height: 125px;" src="img/compe.png" alt=""></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 " data-aos="flip-left">
+                        <div class="card-body education-contain-header">
+                            <p>Septiembre 2018</p>
+                            <P>Junio 2019</P>
+                            <div class="h5"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="h5">Voluntariado en Centro de Día Bellvitge</div>
+                            <p>Mi función era la de pasar rato con personas mayores para hacerles compañía. 4 ESO Joan XXIII, Hospitalet de Llobregat. Fue una experiencia muy enriquecedora.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card-body education-contain-header">
+                            <p></p>
+                            <div class="h5">2019 </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="h5">Recogida de alimentos para El Gran Recapte</div>
+                            <p>Mi función era la recolectar productos de primera necesidad a los clientes de grandes superficies que iban a hacer su compra. Carrefour, Gran Vía 2, Hospitalet de Llobregat. Además de poder ayudar a los necesitados me ayudó
+                                a favorecer mi comunicación con los demás.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text-center text-muted">
+            <!-- <p>&copy; Template CV. All rights reserved.<br>Author - <a href="https://github.com/ngakui" target="_blank">Ulrich NGAKUI NGAHA</a></p> -->
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/now-ui-kit.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
