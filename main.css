@@ -78,24 +78,24 @@ nav ul {
 .first-title {
     padding-bottom: 20px;
     font-size: 35px;
-    color: #4A1772;
+    color: rgba(3, 78, 199, 0.734);
     text-decoration: underline;
 }
 
 .second-title {
     font-size: 25px;
-    color: #4A1772;
+    color: rgba(3, 78, 199, 0.734);
     text-decoration: underline;
 }
 
 .third-title {
     font-size: 20px;
-    color: #4A1772;
+    color: rgba(3, 78, 199, 0.734);
     text-decoration: underline;
 }
 
 .font-icon {
-    color: #4A1772;
+    color: blue;
 }
 
 
@@ -204,7 +204,7 @@ nav ul {
 
 .icon-contact {
     font-size: 20px;
-    color: #4A1772;
+    color: blue;
 }
 
 .cc-profile-image a {
@@ -255,12 +255,16 @@ nav ul {
 *
 */
 
+a {
+    color: #FFFFFF;
+}
+
 .experience-contain .experience-contain-header {
     padding-top: 60px;
     padding-right: 0;
     text-align: center;
     color: #fff;
-    background-color: #4A1772;
+    background-color: rgb(78, 191, 206);
     text-transform: uppercase;
 }
 
@@ -424,7 +428,7 @@ figure.effect:hover img {
     padding-right: 0;
     text-align: center;
     color: #fff;
-    background-color: #4A1772;
+    background-color: rgb(78, 191, 206);
     text-transform: uppercase;
 }
 
